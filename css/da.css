@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0;
+}
+
+.kartinki {
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.osnova {
+    text-align: center;
+    margin: 0px 10px;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: opensans-light;
+    height: 10%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee77525d, #e73c7e5d, #23a6d55d, #23d5ab5d);
+    background-color: #1A1A1D;
+    height: 100%;
+    background-size: 400% 400%;
+    animation: fon 15s ease infinite;
+}
+
+@keyframes fon {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    main {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        border-left: 1px white solid;
+        border-right: 1px white solid;
+        background-color: #1A1A1D5d;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    main {
+        height: 100%;
+    }
+}
+
+.text {
+    font-family: ubuntu;
+    color: white;
+}
+
+mark {
+    font-family: notoemoji;
+    color: white;
+    background-color: #ffffff00;
+}
