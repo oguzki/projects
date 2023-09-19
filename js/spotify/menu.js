@@ -10,7 +10,7 @@ function closeNav() {
 
 function letov() {
     document.getElementById("image").style = "border-radius: 100%; width: 220px; height: 220px; border: 1px white solid;";
-    document.getElementById("image").src = "files/pic/spotify/letov.jpg";
+    document.getElementById("image").src = "img/spotify/letov.jpg";
     document.getElementById("name").innerHTML = "Егор Летов";
     document.getElementById("text").innerHTML = "Музыкант тайги далёкой";
     document.getElementById("song_name1").innerHTML = '<a class="elprimo" onclick="letov_1()">Всё идёт по плану</a>';
@@ -20,7 +20,7 @@ function letov() {
 }
 function krug() {
     document.getElementById("image").style = "border-radius: 100%; width: 220px; height: 220px; border: 1px white solid;";
-    document.getElementById("image").src = "files/pic/spotify/krug.jpg";
+    document.getElementById("image").src = "img/spotify/krug.jpg";
     document.getElementById("name").innerHTML = "Михаил Круг";
     document.getElementById("text").innerHTML = "Легенда русского шансона";
     document.getElementById("song_name1").innerHTML = '<a class="elprimo" onclick="krug_1()">Владимирский централ</a>';
@@ -51,11 +51,11 @@ function mzlff() {
 }
 function trofimov() {
     document.getElementById("image").style = "border-radius: 100%; width: 220px; height: 220px; border: 1px white solid;";
-    document.getElementById("image").src = "files/pic/spotify/trofimov.jpg";
+    document.getElementById("image").src = "img/spotify/trofimov.jpg";
     document.getElementById("name").innerHTML = "Сергей Трофимов";
     document.getElementById("text").innerHTML = "также известен как Трофим";
     document.getElementById("song_name1").innerHTML = '<a class="elprimo" onclick="trofimov_1()">Город Сочи</a>';
     document.getElementById("song_name2").innerHTML = '<a class="elprimo" onclick="trofimov_2()">Московская песня</a>';
-    document.getElementById("song_name3").innerHTML = '<a class="elprimo" onclick="trofimov_2()">Дальнобойная</a>';
+    document.getElementById("song_name3").innerHTML = '<a class="elprimo" onclick="trofimov_3()">Дальнобойная</a>';
     document.getElementById("song_name4").innerHTML = '';
 }
