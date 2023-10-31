@@ -10,13 +10,13 @@ body {
 }
 
 .text {
-    font-family: Ubuntu-Medium;
+    font-family: Ubuntu-Regular;
     color: white;
     text-align: center;
 }
 
 .reddit {
-    font-family: Ubuntu-Medium;
+    font-family: Ubuntu-Regular;
     color: rgb(255, 86, 0);
     text-align: center;
     transition: .5s;
@@ -28,7 +28,7 @@ body {
 }
 
 .civitai {
-    font-family: Ubuntu-Medium;
+    font-family: Ubuntu-Regular;
     color: rgb(0, 162, 255);
     text-align: center;
     transition: .5s;
@@ -100,7 +100,7 @@ body {
 }
 
 .qn {
-    font-family: Ubuntu-Medium;
+    font-family: Ubuntu-Regular;
     text-decoration: none;
     color: rgb(255, 230, 0);
     transition: .5s;
@@ -114,7 +114,7 @@ body {
 .okbutton {
     color: white;
     text-decoration: none;
-    font-family: Ubuntu-Medium;
+    font-family: Ubuntu-Regular;
     cursor: pointer;
     padding-top: 10px;
     transition: .5s;
