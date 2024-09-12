@@ -74,7 +74,13 @@ body {
 
 .quan {
     width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.39);
     position: fixed;
 	top: 0;
     bottom: 0;
